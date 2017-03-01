@@ -16,3 +16,6 @@
 [submodule "gflags"]
 	path = gflags
 	url = https://github.com/gflags/gflags.git
+[submodule "opencv"]
+	path = opencv
+	url = https://github.com/mview/opencv.git
