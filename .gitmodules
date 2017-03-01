@@ -19,3 +19,6 @@
 [submodule "opencv"]
 	path = opencv
 	url = https://github.com/mview/opencv.git
+[submodule "viennacl"]
+	path = viennacl
+	url = https://github.com/viennacl/viennacl-dev.git

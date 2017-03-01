@@ -34,7 +34,7 @@ N_JOBS=${N_JOBS:-4}
 
 cd "${OPENBLAS_ROOT}"
 
-if [ "${ANDROID_ABI}" = "armeabi-v7a-hard-softfp with NEON" ]; then
+if [ "${ANDROID_ABI}" = "armeabi-v7a" ]; then
     CROSS_SUFFIX=$NDK_ROOT/toolchains/arm-linux-androideabi-4.9/prebuilt/${OS}-${BIT}/bin/arm-linux-androideabi-
     SYSROOT=$NDK_ROOT/platforms/android-21/arch-arm
     NO_LAPACK=${NO_LAPACK:-1}
