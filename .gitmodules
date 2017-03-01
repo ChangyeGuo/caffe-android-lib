@@ -22,3 +22,6 @@
 [submodule "viennacl"]
 	path = viennacl
 	url = https://github.com/viennacl/viennacl-dev.git
+[submodule "caffe"]
+	path = caffe
+	url = https://github.com/mview/caffe.git
