@@ -4,12 +4,6 @@
 [submodule "protobuf"]
 	path = protobuf
 	url = https://github.com/google/protobuf.git
-[submodule "opencv"]
-	path = opencv
-	url = https://github.com/Itseez/opencv.git
-[submodule "caffe"]
-	path = caffe
-	url = https://github.com/sh1r0/caffe.git
 [submodule "android-cmake"]
 	path = android-cmake
 	url = https://github.com/sh1r0/android-cmake.git
