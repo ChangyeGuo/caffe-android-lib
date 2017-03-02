@@ -26,11 +26,11 @@ fi
 ./scripts/build_gflags.sh
 ./scripts/build_glog.sh
 ./scripts/build_lmdb.sh
+./scripts/build_ffmpeg.sh
 ./scripts/build_opencv.sh
 ./scripts/build_protobuf_host.sh
 ./scripts/build_protobuf.sh
 ./scripts/install_cl.sh
-./scripts/build_ffmpeg.sh
 ./scripts/build_viennacl.sh
 ./scripts/build_caffe_opencl.sh
 
