@@ -25,3 +25,6 @@
 [submodule "caffe"]
 	path = caffe
 	url = https://github.com/mview/caffe.git
+[submodule "ffmpeg-2.1.4.android"]
+	path = ffmpeg-2.1.4.android
+	url = https://github.com/mview/ffmpeg-2.1.4.android.git
