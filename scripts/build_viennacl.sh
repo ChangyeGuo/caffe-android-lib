@@ -41,6 +41,7 @@ cmake -DCMAKE_TOOLCHAIN_FILE="${WD}/android-cmake/android.toolchain.cmake" \
       -DCMAKE_INSTALL_PREFIX="${ANDROID_LIB_ROOT}/VIENNACL" \
       ..
 
+make clean
 make -j${N_JOBS}
 rm -rf "${ANDROID_LIB_ROOT}/VIENNACL"
 make install/strip
