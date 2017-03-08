@@ -30,6 +30,7 @@ cmake -DCMAKE_TOOLCHAIN_FILE="${WD}/android-cmake/android.toolchain.cmake" \
       -Dprotobuf_BUILD_TESTS=OFF \
       ../cmake
 
+make clean
 make -j${N_JOBS}
 rm -rf "${INSTALL_DIR}/protobuf"
 make install/strip

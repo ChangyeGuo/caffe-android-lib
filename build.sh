@@ -22,6 +22,7 @@ if ! ./scripts/build_openblas.sh ; then
     exit 1
 fi
 
+./scripts/build_blis.sh
 ./scripts/build_boost.sh
 ./scripts/build_gflags.sh
 ./scripts/build_glog.sh
@@ -31,6 +32,8 @@ fi
 ./scripts/build_protobuf_host.sh
 ./scripts/build_protobuf.sh
 ./scripts/install_cl.sh
+./scripts/build_clblas.sh
+./scripts/build_clblast.sh
 ./scripts/build_viennacl.sh
 ./scripts/build_caffe_opencl.sh
 

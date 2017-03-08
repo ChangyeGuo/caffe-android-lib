@@ -28,3 +28,12 @@
 [submodule "ffmpeg-2.1.4.android"]
 	path = ffmpeg-2.1.4.android
 	url = https://github.com/mview/ffmpeg-2.1.4.android.git
+[submodule "blis"]
+	path = blis
+	url = https://github.com/flame/blis.git
+[submodule "CLBlast"]
+	path = CLBlast
+	url = https://github.com/CNugteren/CLBlast.git
+[submodule "clBLAS"]
+	path = clBLAS
+	url = https://github.com/clMathLibraries/clBLAS.git
